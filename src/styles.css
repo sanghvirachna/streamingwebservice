@@ -1,0 +1,136 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.navbar{
+  z-index:999;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background: transparent;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.custom-color {
+  background-color: #0f0f0f;
+}
+.nav-item.active .nav-link {
+  background-color: #1a1a1a;
+}
+.card-color{
+
+  background-color: #141414;
+  
+}
+.number-color{
+  background-color: #262626;
+}
+
+.px-11 {
+  padding-left: 5rem;
+  padding-right:5rem;
+}
+.gradient-card {
+  background: #0F0F0F;
+  background: linear-gradient(40deg, rgba(4, 4, 4, 0) 65%, rgba(229, 0, 0, 0.1) 100%);
+  border:1px solid #1F1F1F;
+}
+.logo{
+  background-color: #141414;
+  border: 1px solid rgba(20,20,20, 1);
+}
+.provide-text{
+  color:#999999;
+  
+}
+.plan-text{
+  color:#999999;
+  font-size:1.1rem;
+  
+}
+.plan-card{
+  /* background-color: #262626; */
+  /* background-color: #262626; */
+  background-color: #201c1c;
+  color: white;
+  padding: 50px 50px 50px 50px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  
+}
+/* ...existing styles... */
+
+.custom-button {
+  background-color: #E50000;
+  border:1px solid red;
+  color:white;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.custom-button2 {
+  background-color: #141414;
+  border: 7px solid rgb(20,20,20);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-button2:hover {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.monthly{
+  background-color:#201c1c ;
+}
+.yearly{
+
+}
+.home{
+  background: rgb(15,15,15);
+  background: linear-gradient(0deg, rgba(15,15,15,1) 59%, rgba(0,0,0,0) 100%);
+}
+.paragraph-container {
+  max-width: 80%; 
+  margin: 0 auto; 
+  padding: 1rem 0;
+}
+.explore-card{
+  background-color: #201c1c;
+  color: white;
+  padding:1rem;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.pagination {
+  background-color: #0F0F0F;
+  border: 1px solid #1F1F1F;
+  align-items: center;
+  justify-content: center;
+}
+.arrow{
+  background-color: #1A1A1A;
+}
+.red{
+  color:red
+}
+.trail {
+  color: white;
+  height: 13rem;
+  background: url('./assets/images/trailimage.png') 0 0/cover;
+  border: 1px solid #1F1F1F; 
+}
+.faq-color {
+  background: blanchedalmond;
+  background: linear-gradient(90deg, rgb(15,15,15) 5%, rgba(229,0,0,0.4) 20%, rgb(15,15,15) 50%, rgba(229,0,0,0.4) 90%,rgb(15,15,15) 95%);
+}
+.pt-10{
+  padding-top:8rem;
+}
+.hji{
+  background-color: palegoldenrod;
+}
+
